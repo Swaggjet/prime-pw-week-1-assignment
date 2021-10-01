@@ -1,11 +1,35 @@
-/* Give your page a fun background color */
+css
 
+/* Give your page a fun background color */
+body {
+  background-color: lightblue;
+}
 /* Make the header and footer a different color from the background */
 
+header{
+  background-color: silver;
+}
+
+footer {
+  background-color: blue;
+}
+
 /* Align the h1 containing your name in the center of the header*/
-
+.header{
+  text-align: center;
+}
 /* Make your p tag a different color and italic */
-
+p {
+  font-style: italic;
+  color: #ff0000;
+}
 /* Put a border around your image */
 
+.Bigphoto {
+  width: 75%;
+  border: 10px solid black;
+}
 /* Change the font-family of your list */
+.list{
+  font-family: cursive;
+}
